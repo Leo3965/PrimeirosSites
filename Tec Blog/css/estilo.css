@@ -1,0 +1,142 @@
+/*Limpar formatações padrão*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/*#cabecalho{
+	background: #fca311;
+	padding: 20px;
+	height: 120px;
+	text-align: center;
+}
+
+#titulo{
+	color: #343a40;
+}
+
+#titulo2{
+	color: #FFFF;
+}
+
+#corpo{
+	background: #FFFF;
+	width: 640px;
+	padding: 20px;
+	margin-top: 10px;
+	margin-left: 80px;
+
+}
+
+.titulos{
+	color: #fcbf49;
+}
+
+.imagens{
+	margin-top: 20px;
+}
+
+.blocos{
+	background: #FFFF;
+	width: 250px;
+	padding: 10px;
+	position: relative;
+	left: 700px;
+	bottom: 505px;
+}
+
+.subtitulos{
+	position: relative;
+	background: #6c757d;
+	color: #343a40;
+}
+
+
+a{
+	padding-left: 10px;
+	text-decoration: none;
+	color: #FFFF;
+
+}*/
+
+body{
+	font-size: 1em;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #e9ecef;
+	/*background: #e6e6e6;*/
+}
+
+
+/*
+**** Layout ****
+*/
+#area-cabecalho{
+	background-color:  #f7b600;
+	padding: 15px;
+	text-align: center;
+}
+
+#area-logo, #area-menu{
+	padding: 10px;
+}
+
+#area-principal{
+	width: 920px;
+	margin: 0 auto; /* Ao colocar margin auto nas laterais ele centraliza sozinho*/
+}
+
+#area-postagens{
+	width: 660px;
+	float: left;
+}
+
+#area-lateral{
+	width: 240px;
+	float: right;
+}
+
+#area-postagens, #area-lateral{
+	background: orange;
+}
+
+#rodape{
+	clear: both;
+	text-align: center;
+	padding: 15px;
+	background: #CCC;
+}
+
+.postagem{
+	padding: 20px;
+	margin-bottom: 20px;
+	background: white; 
+}
+
+/*
+**** Formatação do Menu ****
+*/
+a{
+	text-decoration: none;
+}
+
+a:link, a:visited{
+	color: #FFFF;
+	padding: 8px 12px;
+}
+
+a:hover{
+	color: #f7b600;
+	background: white;
+}
+
+/*
+**** Formatações Gerais ****
+*/
+h1{
+	color: #4e4e4e;
+	font-size: 2.5em;
+}
+
+.branco{
+	color: white;
+}
